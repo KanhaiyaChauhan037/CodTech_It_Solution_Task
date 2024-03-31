@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cdf0f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  caret-color: blue;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  height: 5vh;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #064714;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00b309;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+#li_task {
+  display: flex;
+  justify-content: space-between;
+}
+#div_list {
+  display: flex;
+  gap: 10px;
+}
+#edit_button {
+  background-color: blue;
+}
+#edit_button:hover {
+  background-color: rgb(9, 71, 9);
+}
+#delete_button {
+  background-color: red;
+}
+#delete_button:hover {
+  background-color: rgb(138, 12, 12);
+}
